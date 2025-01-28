@@ -17,21 +17,19 @@ Dans cette étape, nous nous concentrons sur l’acquisition et l’exploration 
 
 **Création et sélection de caractéristiques** : Identifier et concevoir des caractéristiques pertinentes à partir des données disponibles, comme la position des tirs, le temps de jeu restant, ou encore les informations contextuelles telles que le score au moment de l'action.  
 **Encodage et transformation** : Préparer les caractéristiques non numériques ou catégoriques en utilisant des méthodes comme le one-hot encoding, le label encoding, ou encore les embeddings si nécessaire.  
+
 2. **Modélisation statistique et apprentissage automatique**
 
 **Expérimentation avec différents classificateurs** : Tester plusieurs algorithmes d’apprentissage automatique, tels que la regression logistique, XG boost, les forêts aléatoires (Random Forest), les machines à vecteurs de support (SVM), ou les réseaux neuronaux.  
 **Combinaison des caractéristiques** : Analyser l'impact de différentes combinaisons de caractéristiques sur la performance des modèles et ajuster en conséquence.
-**Métriques d'évaluation** : Se familiariser avec et utiliser des métriques clés comme les courbes ROC, l'AUC, la précision, le rappel, et le F1-score pour évaluer les performances des modèles.
-Justification des résultats : Produire des graphiques et des visualisations (courbes ROC, importance des caractéristiques, etc.) pour appuyer les choix méthodologiques.
-Reproductibilité et suivi des expériences
+**Métriques d'évaluation** : Se familiariser avec et utiliser des métriques clés comme les courbes ROC, l'AUC, la précision,  pour évaluer les performances des modèles.
+**Justification des résultats** : Produire des graphiques et des visualisations (courbes ROC, importance des caractéristiques, etc.) pour appuyer les choix méthodologiques.
 
-Bonnes pratiques : Adopter des outils comme MLflow, DVC, ou TensorBoard pour suivre les hyperparamètres, les versions de données et les performances des modèles.
+3. **Reproductibilité et suivi des expériences**
+
+Bonnes pratiques : Adopter de  l'outil wandb pour suivre les hyperparamètres, les versions de données et les performances des modèles.
 Documentation : Enregistrer chaque expérience, incluant les configurations des modèles et les résultats obtenus, pour une analyse future et une reproductibilité totale.
 Workflow structuré : Maintenir une organisation claire des scripts et des résultats pour faciliter le partage et la collaboration.
-Article de Blog
-
-Documenter les étapes clés de l’ingénierie des caractéristiques et de la modélisation dans un article structuré, illustré de graphiques et de résultats comparatifs. Cela permet de partager les insights et les méthodologies avec un public plus large.
-
 
 ### Structure de projet
 /ift6758_projet  
