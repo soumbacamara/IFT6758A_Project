@@ -30,6 +30,9 @@ Dans cette étape, nous nous concentrons sur l’acquisition et l’exploration 
 Bonnes pratiques : Adopter de  l'outil wandb pour suivre les hyperparamètres, les versions de données et les performances des modèles.
 Documentation : Enregistrer chaque expérience, incluant les configurations des modèles et les résultats obtenus, pour une analyse future et une reproductibilité totale.
 
+4. **Article de Blog:** Documentation des résultats dans un blog statique en utilisant Jekyll.
+
+
 **Étape 3 : Déploiement et Visualisation des Modèles NHL**
 
 1. **Modèle "Déploiement"**
