@@ -29,7 +29,23 @@ Dans cette étape, nous nous concentrons sur l’acquisition et l’exploration 
 
 Bonnes pratiques : Adopter de  l'outil wandb pour suivre les hyperparamètres, les versions de données et les performances des modèles.
 Documentation : Enregistrer chaque expérience, incluant les configurations des modèles et les résultats obtenus, pour une analyse future et une reproductibilité totale.
-Workflow structuré : Maintenir une organisation claire des scripts et des résultats pour faciliter le partage et la collaboration.
+
+**Étape 3 : Déploiement et Visualisation des Modèles NHL**
+
+1. **Modèle "Déploiement"**
+**Modèle en tant que service** :  
+Transformer les modèles d'apprentissage automatique en services accessibles via une API. Cela inclut la création d’un endpoint permettant aux utilisateurs de soumettre des données et de recevoir des prédictions en retour.
+**Gestion des dépendances de modèles (Docker) :**
+Utiliser Docker pour contenir et gérer les dépendances du modèle (frameworks ML, bibliothèques spécifiques). Construire une image Docker pour faciliter le déploiement.
+**API REST :**
+Mettre en œuvre une API REST avec le framework  Flask  pour rendre le modèle accessible à d'autres utilisateurs.
+
+2. **"Production"/Live Workflows**
+**Écriture :**
+Intégrer le modèle dans des workflows de production, comme Un système qui analyse les tirs en direct lors des matchs et affiche les probabilités en temps réel.
+3. **Visualisation interactive**
+**Streamlit pour une accessibilité intuitive** :
+Créer une application Streamlit pour permettre aux utilisateurs non techniques d’explorer les prédictions et les résultats du modèle (utilisateurs peuvent entrer des données manuellement (position du tir, distance, etc.) et visualiser les prédictions.)
 
 ### Structure de projet
 /ift6758_projet  
