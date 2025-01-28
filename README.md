@@ -52,12 +52,12 @@ Créer une application Streamlit pour permettre aux utilisateurs non techniques 
 
 ### Structure de projet
 /ift6758_projet  
-├── /data                # Stocke les données brutes et traitées  
-├── /notebooks           # Notebooks Jupyter pour l'acquisition, l'exploration et la visualisation des données  
-├── /src                 # Code source Python pour le traitement et la visualisation des données  
-├── /images              # Tous les images utilisées dans les visualisations et tous les visualisations  
+├── /data                # Stocke les données brutes et traitées 
+├── /docker-project_vf   # Servive Doker 
+├── /figures              # Tous les images utilisées dans les visualisations et tous les visualisations  
+├── /notebooks           # Notebooks Jupyter pour toutes les etapes du projet 
+├── /source                 # Code source Python pour les applications  
 ├── README.md            # Aperçu du projet et instructions  
-├── environment.yml      # Fichier de configuration de l'environnement Conda  
 └── requirements.txt     # Dépendances Python  
 
 ### Instructions d’Installation
